@@ -24,7 +24,7 @@ I utilize the following technologies and languages:
     <li> Create Aurora Servless DB and customer table </li>
 </ul>
 
--- image here --
+![Data Pipeline Flow Chart](https://github.com/christianhansonn/PortfolioDataPipeline/blob/main/static/Portfolio%20Project%20Pipeline.jpeg)
 
 # Deploying in AWS
 

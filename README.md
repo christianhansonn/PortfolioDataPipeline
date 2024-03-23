@@ -14,15 +14,6 @@ I utilize the following technologies and languages:
 5. AWS RDS to store the transformed data 
 6. AWS Quicksight to visualize the transformed data 
 
-
-
-## Prerequisite
-
-    - Download [dataset](https://github.com/christianhansonn/PortfolioDataPipeline/blob/main/S3/customer_call_list.csv) from Kaggle 
-    - Create S3 bucket for storage 
-    - Create Aurora Servless DB and customer table [SQL command](https://github.com/christianhansonn/PortfolioDataPipeline/blob/main/RDS/create_table.sql)
-
-
 ![Data Pipeline Flow Chart](https://github.com/christianhansonn/PortfolioDataPipeline/blob/main/static/Portfolio%20Project%20Pipeline.jpeg)
 
 # Deploying in AWS

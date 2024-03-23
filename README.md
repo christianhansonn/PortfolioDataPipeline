@@ -19,9 +19,9 @@ I utilize the following technologies and languages:
 ## Prerequisite
 
 <ul>
-    <li> Download dataset from Kaggle </li>
+    <li> Download [dataset](https://github.com/christianhansonn/PortfolioDataPipeline/blob/main/S3/customer_call_list.csv) from Kaggle </li>
     <li> Create S3 bucket for storage </li>
-    <li> Create Aurora Servless DB and customer table </li>
+    <li> Create Aurora Servless DB and customer table with [SQL command](https://github.com/christianhansonn/PortfolioDataPipeline/blob/main/RDS/create_table.sql) </li>
 </ul>
 
 ![Data Pipeline Flow Chart](https://github.com/christianhansonn/PortfolioDataPipeline/blob/main/static/Portfolio%20Project%20Pipeline.jpeg)
@@ -42,7 +42,7 @@ FROM customer_call_list.csv
 
 ## AWS Glue ETL and RDS
 
-I wrote the following Python script to utilize in my AWS Glue Crawler, preformed the ETL process, and loaded the cleaned data into Aurora Serverless MySQL database
+I wrote this [Python script](https://github.com/christianhansonn/PortfolioDataPipeline/blob/main/Glue/clean.ipynb) to utilize in my AWS Glue Crawler, preformed the ETL process, and loaded the cleaned data into Aurora Serverless MySQL database
 
 ## Querying and Visualizing the Cleaned Data
 

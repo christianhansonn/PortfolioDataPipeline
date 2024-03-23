@@ -6,23 +6,22 @@ This project is to showcase skills in cloud computing, ETL, data pipeline and vi
 
 I utilize the following technologies and languages:
 
-<ul> 
-<li> S3 to store the data </li>
-<li> AWS Athena and SQL to query the data before ETL </li>
-<li> Python to write custom transformation logic </li>
-<li> AWS Glue to execute the ETL process </li>
-<li> AWS RDS to store the transformed data </li>
-<li> AWS Quicksight to visualize the transformed data </li>
-</ul>
+
+- S3 to store the data 
+- AWS Athena and SQL to query the data before ETL 
+- Python to write custom transformation logic 
+- AWS Glue to execute the ETL process 
+- AWS RDS to store the transformed data 
+- AWS Quicksight to visualize the transformed data 
+
 
 
 ## Prerequisite
 
-<ul>
-    <li> Download [dataset](https://github.com/christianhansonn/PortfolioDataPipeline/blob/main/S3/customer_call_list.csv) from Kaggle </li>
-    <li> Create S3 bucket for storage </li>
-    <li> Create Aurora Servless DB and customer table with [SQL command](https://github.com/christianhansonn/PortfolioDataPipeline/blob/main/RDS/create_table.sql) </li>
-</ul>
+    * Download [dataset](https://github.com/christianhansonn/PortfolioDataPipeline/blob/main/S3/customer_call_list.csv) from Kaggle 
+    * Create S3 bucket for storage 
+    * Create Aurora Servless DB and customer table [SQL command](https://github.com/christianhansonn/PortfolioDataPipeline/blob/main/RDS/create_table.sql)
+
 
 ![Data Pipeline Flow Chart](https://github.com/christianhansonn/PortfolioDataPipeline/blob/main/static/Portfolio%20Project%20Pipeline.jpeg)
 

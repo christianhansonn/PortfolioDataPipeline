@@ -18,18 +18,6 @@ I utilize the following technologies and languages:
 
 # Deploying in AWS
 
-## Query Structured Data Before ETL
-
-Using AWS Athena and SQL, I query the stored CSV file to identify transformations that will need to be done
-
-```
-
-SELECT *
-FROM customer_call_list.csv
-
-```
-
-
 ## AWS Glue ETL and RDS
 
 I wrote this [Python script](https://github.com/christianhansonn/PortfolioDataPipeline/blob/main/Glue/clean.ipynb) to utilize in my AWS Glue Crawler, preformed the ETL process, and loaded the cleaned data into Aurora Serverless MySQL database

@@ -21,7 +21,7 @@ I utilize the following technologies and languages:
 ## AWS Glue ETL and RDS
 
 - I wrote this [Python script](https://github.com/christianhansonn/PortfolioDataPipeline/blob/main/Glue/clean.ipynb) to utilize in my AWS Glue Crawler
-- Preformed the ETL process
+- Preformed the extract and transform process to manipulate the dataset in S3
 - Loaded the cleaned data into Aurora Serverless MySQL database
 
 

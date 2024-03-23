@@ -26,7 +26,7 @@ I wrote this [Python script](https://github.com/christianhansonn/PortfolioDataPi
 
 Utilizing the following SQL script to query the Aurora database, I now have a list of paying customer and their contact information
 
-```
+```sql
 
 SELECT
     CONCAT(first_name,' ',last_name) AS Name ,
